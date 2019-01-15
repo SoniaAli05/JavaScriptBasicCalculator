@@ -1,0 +1,29 @@
+<html>
+
+    
+    <header>
+
+    </header>
+
+
+    <body>
+        <script src="calculator.js"></script>
+
+
+        Input number 1: <input type="number" id="num1"><br>
+        Input number 2: <input type="number" id="num2"><br>
+        
+        
+        <button id="add" onclick="add(document.getElementById('num1').value, document.getElementById('num2').value);">Add</button>   
+        <button id="sub" onclick="subtract(document.getElementById('num1').value, document.getElementById('num2').value);">Subtract</button>
+        <button id="mul" onclick="multiply(document.getElementById('num1').value, document.getElementById('num2').value);">Multiply</button>
+        <button id="div" onclick="divide(document.getElementById('num1').value, document.getElementById('num2').value);">Divide</button> 
+
+
+        <br>Output: <div id="output"></div>
+
+    
+
+    </body>
+
+</html>
